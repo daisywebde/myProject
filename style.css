@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bungee+Tint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bungee+Tint&family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Bungee+Tint&family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: #FFE6E6;
+}
+.nav{
+    position: sticky;
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-around;
+    background-color:  #c37fae;
+    padding: 10px;
+    color: white;
+    
+    font-family: "Bona Nova SC", serif;
+    font-size: 18px;
+   
+    
+}
+.link1{
+    margin-top: 9px;
+}
+.link2{
+    margin-top: 9px;
+}
+.link3{
+    margin-top: 9px;
+}
+.logo{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #5f1174;
+}
+.main{
+    display: flex;
+}
+.img{
+    background-color: #AD88C6;
+}
+.image{
+   height: 790px;
+   width: 900px;
+   object-fit: scale-down;
+   
+}
+.right{
+    background-color: #AD88C6;
+}
+.date{
+   text-align: center;
+   
+   color: white;
+}
+.box{
+    border: 2px solid #7469B6;
+    border-radius: 150px;
+    background-color: #7469B6;
+    height: 400px;
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.box2{
+    color: azure;
+    margin-top: 10px;
+    border: 2px solid #5f1174;
+    width:200px;
+    margin-left: 130px;
+    text-align: center;
+    padding: 5px;
+    background-color: #5f1174;
+    border-radius: 50px;
+}
+.para{
+    margin-top: 10px;
+    color: white;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background-color: #c37fae;
+    color: #5f1174;
+    padding: 5px;
+    text-align: center;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 160px;
+    border: #c37fae;
+    
+}
+.btn:hover{
+    background-color: #a35f8e;
+    color: white;
+}
+.links{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
